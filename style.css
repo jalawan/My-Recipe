@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px 20px 50px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    box-sizing: border-box;
+}
+.recipe-title {
+    font-family:'Young Serif', serif;
+    font-weight: 400;
+}
+.prep-time {
+    font-family: 'Outfit', sans-serif;
+    color: #555;
+    margin-bottom: 20px;
+    background-color: hsl(331, 53%, 89%);
+    padding: 10px;
+    border-radius: 5px;
+}
+.prep-time h2 {
+    color: hsl(331, 53%, 30%);
+}
+.prep-time ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+.prep-time ul .prep1{
+    display:flex;
+}
+.prep-time .prep2{
+    display:flex;
+}
+.prep-time .prep3{
+    display:flex;
+}
+.ingredients {
+    font-family: 'Young Serif', serif;
+    background-color: hsl(330, 12%, 97%);
+    padding: 10px;
+    border-radius: 5px;
+    line-height: 2;
+}
+.ingredients h2 {
+    color: hsl(14, 70%, 73%);
+}
+.ingredients ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.instructions {
+    font-family: 'Young Serif', serif;
+    background-color: hsl(210, 36%, 96%);
+    padding: 10px;
+    border-radius: 5px;
+}
+.instructions h2 {
+    color: hsl(14, 70%, 73%);
+}
+.instructions ol {
+    padding-left: 20px;
+}
+.instructions .step1{
+    display: inline-flex;
+}
+.instructions .step2{
+    display:flex;
+}
+.instructions .step3{
+    display:flex;
+}
+.instructions .step4{
+    display:flex;
+}
+.instructions .step5{
+    display:flex;
+}
+.instructions .step6{
+    display:flex;
+}
+.nutrition {
+    font-family: 'Young Serif', serif;
+    font-size: large;
+    margin-bottom: 20px;
+    background-color: hsl(120, 11%, 96%);
+    padding: 10px;
+    border-radius: 5px;
+}
+.nutrition h2 {
+    color: hsl(14, 70%, 73%);
+}
+.nutrition .Calories {
+   display: flex;
+    justify-content: space-around;
+    margin: 20px 0;  
+}
+.nutrition .Calories h3, .Carbohydrates h3, .Protein h3, .Fats h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: hsl(15, 27%, 53%);
+}
+.nutrition .Carbohydrates{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.nutrition .Protein {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.nutrition .Fats {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.nutrition .Calories , .Carbohydrates, .Protein, .Fats {
+    font-weight: bold;
+    color: hsl(33, 8%, 54%);
+}
